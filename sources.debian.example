@@ -1,0 +1,11 @@
+deb http://http.debian.net/debian $DISTRO main contrib non-free
+# deb-src http://http.debian.net/debian $DISTRO main
+ 
+deb http://security.debian.org $DISTRO/updates main contrib non-free
+# deb-src http://security.debian.org $DISTRO/updates main
+ 
+deb http://http.debian.net/debian-backports $DISTRO-backports main non-free
+# deb-src http://http.debian.net/debian-backports $DISTRO-backports main
+ 
+deb http://http.debian.net/debian $DISTRO-proposed-updates main contrib non-free
+# deb-src http://http.debian.net/debian $DISTRO-proposed-updates main

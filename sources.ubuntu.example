@@ -1,0 +1,19 @@
+deb http://ru.archive.ubuntu.com/ $DISTRO main universe restricted multiverse
+# deb-src http://ru.archive.ubuntu.com/ $DISTRO main universe
+ 
+deb http://security.ubuntu.com/ubuntu $DISTRO-security main universe restricted multiverse
+# deb-src http://security.ubuntu.com/ubuntu $DISTRO-security main universe
+ 
+deb http://ru.archive.ubuntu.com/ $DISTRO-updates main universe restricted multiverse
+# deb-src http://ru.archive.ubuntu.com/ $DISTRO-updates main universe
+ 
+deb http://ru.archive.ubuntu.com/ $DISTRO-proposed main universe restricted multiverse
+# deb-src http://ru.archive.ubuntu.com/ $DISTRO-proposed main universe
+ 
+deb http://ru.archive.ubuntu.com/ $DISTRO-backports main universe restricted multiverse
+# deb-src http://ru.archive.ubuntu.com/ $DISTRO-backports main universe
+ 
+deb http://archive.canonical.com/ubuntu $DISTRO partner
+ 
+deb http://extras.ubuntu.com/ubuntu $DISTRO main
+# deb-src http://extras.ubuntu.com/ubuntu $DISTRO main
