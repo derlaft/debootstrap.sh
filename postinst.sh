@@ -43,7 +43,7 @@ passwd
 ARCH=i686 #варианты: i386, i486, i686, amd64
 
 ## Debian:
-apt-get -y install linux-base linux-image-$ARCH linux-headers
+apt-get -y install linux-base linux-image-$ARCH linux-headers grub
 
 ## Ubuntu:
 # apt-get -y install linux-image-generic linux-headers-generic
